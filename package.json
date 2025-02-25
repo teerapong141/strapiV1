@@ -1,0 +1,38 @@
+{
+  "name": "strapi-v-2",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "deploy": "strapi deploy",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.10.2",
+    "@strapi/plugin-users-permissions": "5.10.2",
+    "@strapi/strapi": "5.10.2",
+    "cross-env": "^7.0.3",
+    "mysql2": "3.9.8",
+    "pm2-windows-startup": "^1.0.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "0a526923-4542-46e2-b9f7-f61dcc9b82f4"
+  }
+}
